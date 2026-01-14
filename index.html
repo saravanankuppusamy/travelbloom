@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="images\travelbloom.png" alt="logo" id="logo" >
+            <span>TravelBloom</span>
+        </div>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="about_us.html" target="_blank">About us</a></li>
+            <li><a href="contact_us.html" target="_blank">Contact Us</a></li>
+        </ul>
+        <div>
+                <input type="search" name="search" id="search" placeholder="Enter a destination or keyword">
+                <img src="" alt="">
+                <button type="search" onclick="searchRecommendations()">Search</button>
+                <button type="clear" onclick="clearResults()">Clear</button>
+            </div>
+    </nav>
+    <div id="main1">
+        <div id="main">
+            <h1>TravelBloom Your World, Your Way</h1>
+            <div id="summary">
+                <p>Explore <b>Dream Destination</b>
+
+                It encourages<br> exploration of unfamiliar 
+                   territories, embracing diverse cultures and <br>
+                   landscapes, while pursuing the desired <br>
+                   destination that captivates the heart and <br>
+                   ignites a sense of wonder.</p>
+                   <Button>Book Now</Button>
+            </div>
+        </div>
+        <div id="results"></div>
+    </div>
+    <aside>
+            <ul>
+                <li><img class="icons" src="images\twitter.svg" alt="Twitter-logo"></li>
+                <li><img class="icons" src="images\facebook.svg" alt="FaceBook-logo"></li>
+                <li><img class="icons" src="images\instagram.svg" alt="Instagram-logo"></li>
+                <li><img class="icons" src="images\youtube.svg" alt="Youtube-logo"></li>
+            </ul>
+        </aside>
+        <script src="travel_recommendation.js"></script>
+</body>
+</html>
