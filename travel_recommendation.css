@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: url('images/travelbloom_background.png');
+    background-image: url('Images/travelbloom_background.png');
     background-size: cover;
     color: var(--text-color);
     line-height: 1.6;
